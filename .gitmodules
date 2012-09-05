@@ -1,3 +1,6 @@
 [submodule "modules/solr"]
 	path = modules/solr
 	url = git@github.com:KrisBuytaert/puppet-solr.git
+[submodule "modules/concat"]
+	path = modules/concat
+	url = git://github.com/ripienaar/puppet-concat.git
