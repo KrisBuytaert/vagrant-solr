@@ -35,6 +35,11 @@ class my-repos{
     descr      => 'MonitoringSuck at Inuits',
     gpgcheck   => '0',
   }
+  yumrepo { 'upstream':
+    baseurl    => 'http://pulp.inuits.eu/pulp/repos/upstream',
+    descr      => 'Upstream packages at Inuits',
+    gpgcheck   => '0',
+   }
   yumrepo {'epel':
     baseurl  => 'http://pulp.inuits.eu/pulp/repos/epel/6/x86_64/',
     descr    => 'Epel Repo at Inuits',
